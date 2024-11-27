@@ -11,6 +11,37 @@ import nextPlugin from '@next/eslint-plugin-next';
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
+    ignores: [
+      'node_modules',
+      '.next',
+      'build',
+      '.firebase',
+      '.github',
+      '.vercel',
+      '.husky',
+      '.prettierignore',
+      '.stylelintignore',
+      '.eslintignore',
+      '.gitignore',
+      'yarn.lock',
+      'yarn-error.log',
+      '.DS_Store',
+      'vercelBuild.sh',
+      'sentry.properties',
+      'README.md',
+      'pnpm-lock.yaml',
+      'package-lock.json',
+      'public',
+      '/test-results/',
+      '/playwright-report/',
+      '/blob-report/',
+      '/playwright/.cache/',
+      '/tests-examples/',
+      '*.sh',
+      '*.md',
+    ],
+  },
+  {
     files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
     languageOptions: {
       globals: {
