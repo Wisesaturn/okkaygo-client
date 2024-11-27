@@ -19,6 +19,11 @@ Next.js 기반의 돼고 프론트엔드입니다.
 - JSDoc
 - Turbopack
 
+### Project Manage
+
+- Jira
+- CodeRabbit
+
 ## Getting Started
 
 ```bash
